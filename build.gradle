@@ -5,11 +5,10 @@ plugins {
 }
 
 allprojects {
-
-    group = "co.edu.uniquindio.unitravel"
-    version = "1.0-SNAPSHOT"
+    group 'co.edu.uniquindio.unitravel'
+    version '1.0-SNAPSHOT'
     description 'Unitravel es una plataforma para que las personas reserven hoteles en Colombia'
-    sourceCompatibility = '11'
+    sourceCompatibility ='11'
 
     repositories {
         mavenCentral()
@@ -17,11 +16,10 @@ allprojects {
 
 }
 
-subprojects {
+subprojects{
     apply plugin: 'org.springframework.boot'
     apply plugin: 'io.spring.dependency-management'
     apply plugin: 'java'
-
     dependencies {
         compileOnly 'org.projectlombok:lombok'
         annotationProcessor 'org.projectlombok:lombok'

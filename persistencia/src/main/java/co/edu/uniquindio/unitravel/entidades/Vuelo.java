@@ -1,33 +1,46 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.io.Serializable;
+import lombok.*;
 
-@Entity
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@NoArgsConstructor
+@Entity
 @Getter
 @Setter
+@ToString
+@NoArgsConstructor
 public class Vuelo implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private int codigo;
+    private String codigo;
 
-    private boolean Estado;
+    @Column(nullable = false)
+    private String estado;
 
+    @Column(nullable = false)
     private String aerolinea;
 
-    public Vuelo(boolean estado, String aerolinea) {
-        Estado = estado;
+    @ManyToOne
+    private Ciudad ciudadOrigen;
+
+    @ManyToOne
+    private Ciudad ciudadDestino;
+
+    @OneToMany(mappedBy = "vuelo")
+    @ToString.Exclude
+    private List<Silla> sillas;
+
+    public Vuelo(String codigo, String estado, String aerolinea, Ciudad ciudadOrigen, Ciudad ciudadDestino) {
+        this.codigo = codigo;
+        this.estado = estado;
         this.aerolinea = aerolinea;
+        this.ciudadOrigen = ciudadOrigen;
+        this.ciudadDestino = ciudadDestino;
+        this.sillas = new ArrayList<>();
     }
 }

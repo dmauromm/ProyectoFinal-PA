@@ -1,33 +1,45 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.io.Serializable;
+import lombok.*;
 
-@Entity
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+import javax.persistence.*;
+import javax.validation.constraints.Positive;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
 @NoArgsConstructor
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Entity
 @Getter
 @Setter
+@ToString
 public class Silla implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private int codigo;
+    private String codigo;
 
+    @Column(nullable = false)
     private String posicion;
 
-    private float precio;
+    @Column(nullable = false)
+    @Positive
+    @NonNull
+    private Double precio;
 
-    public Silla(String posicion, float precio) {
+    @ManyToOne
+    private Vuelo vuelo;
+
+    @OneToMany(mappedBy = "silla")
+    @ToString.Exclude
+    private List<ReservaSilla> reservasSillas;
+
+    public Silla(String codigo, String posicion, @NonNull Double precio,Vuelo vuelo) {
+        this.codigo = codigo;
         this.posicion = posicion;
         this.precio = precio;
+        this.vuelo = new Vuelo();
+        this.reservasSillas = new ArrayList<>();
     }
 }

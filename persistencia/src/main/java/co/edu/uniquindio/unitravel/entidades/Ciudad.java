@@ -1,32 +1,51 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import net.bytebuddy.dynamic.loading.InjectionClassLoader;
+import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
-@NoArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
+@ToString
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Ciudad implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(nullable = false, length = 11, unique = true)
     @EqualsAndHashCode.Include
-    private int codigo;
+    private Integer codigo;
 
+    @Column(nullable = false, length = 50)
+    @EqualsAndHashCode.Include
     private String nombre;
+
+    @OneToMany(mappedBy = "ciudad")
+    @ToString.Exclude
+    private List<Hotel> hoteles;
+
+    @OneToMany(mappedBy = "ciudadOrigen")
+    @ToString.Exclude
+    private List<Vuelo> vuelosOrigen;
+
+    @OneToMany(mappedBy = "ciudadDestino")
+    @ToString.Exclude
+    private List<Vuelo> vuelosDestino;
+
+    @OneToMany(mappedBy = "ciudad")
+    @ToString.Exclude
+    private List<Usuario> usuarios;
 
     public Ciudad(String nombre) {
         this.nombre = nombre;
+        this.hoteles = new ArrayList<>();
+        this.usuarios = new ArrayList<>();
+        this.vuelosDestino = new ArrayList<>();
+        this.vuelosOrigen = new ArrayList<>();
     }
 }

@@ -1,28 +1,31 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.*;
+
+import javax.persistence.*;
 import java.io.Serializable;
 
-@Entity
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @NoArgsConstructor
+@Entity
 @Getter
 @Setter
+@ToString
 public class Foto implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private int codigo;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer codigo;
 
+    @Column(nullable = false)
     private String url;
+
+    @ManyToOne
+    private Habitacion habitacion;
+
+    @ManyToOne
+    private Hotel hotel;
 
     public Foto(String url) {
         this.url = url;

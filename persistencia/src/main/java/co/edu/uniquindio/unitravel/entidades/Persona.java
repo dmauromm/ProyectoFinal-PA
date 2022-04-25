@@ -1,38 +1,33 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Inheritance;
-import javax.persistence.InheritanceType;
+import lombok.*;
+import javax.persistence.*;
+import javax.validation.constraints.Email;
 import java.io.Serializable;
 
-@Entity
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @NoArgsConstructor
 @Getter
 @Setter
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Entity
+@ToString
+@AllArgsConstructor
 public class Persona implements Serializable {
 
-    @Id
-    @EqualsAndHashCode.Include
-    private String cedula;
+   @Id
+   @EqualsAndHashCode.Include
+   @Column(length = 11)
+   private String cedula;
 
-    private String nombre;
+   @Column(length = 100, nullable = false)
+   private String nombre;
 
-    private String email;
+   @Email
+   @Column(length = 150, nullable = false, unique = true)
+   private String email;
 
-    private String password;
+   @Column(length = 50, nullable = false)
+   private String password;
 
-    public Persona(String cedula, String nombre, String email, String password) {
-        this.cedula = cedula;
-        this.nombre = nombre;
-        this.email = email;
-        this.password = password;
-    }
 }

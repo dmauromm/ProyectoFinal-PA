@@ -1,39 +1,75 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.io.Serializable;
+import lombok.*;
 
-@Entity
+import javax.persistence.*;
+import javax.validation.constraints.Positive;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @NoArgsConstructor
+@AllArgsConstructor
+@Entity
 @Getter
 @Setter
+@ToString
 public class Hotel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private int codigo;
+    private Integer codigo;
 
+    @Column(nullable = false, length = 100)
     private String nombre;
 
+    @Column(nullable = false, length = 100)
     private String direccion;
 
+    @Column(nullable = false, length = 100)
     private String telefono;
 
-    private int num_estrellas;
+    @Positive
+    @ToString.Include
+    @NonNull
+    @Column(nullable = false)
+    private int numEstrellas;
 
-    public Hotel(String nombre, String direccion, String telefono, int num_estrellas) {
+    @ManyToOne
+    private AdministradorHotel administradorHotel;
+
+    @ManyToOne
+    private Ciudad ciudad;
+
+    @OneToMany(mappedBy = "hotel")
+    @ToString.Exclude
+    private List<Habitacion> habitaciones;
+
+    @OneToMany(mappedBy = "hotel")
+    @ToString.Exclude
+    private List<HistorialPuntos> historialPuntos;
+
+    @OneToMany(mappedBy = "hotel")
+    @ToString.Exclude
+    private List<Comentario> comentarios;
+
+    @ManyToMany(mappedBy = "hoteles")
+    @ToString.Exclude
+    private List<Caracteristica> caracteristicas;
+
+    public Hotel(String nombre, String direccion, String telefono, @NonNull int numEstrellas, AdministradorHotel administradorHotel, Ciudad ciudad) {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
-        this.num_estrellas = num_estrellas;
+        this.numEstrellas = numEstrellas;
+        this.administradorHotel = administradorHotel;
+        this.ciudad = ciudad;
+        this.habitaciones = new ArrayList<>();
+        this.historialPuntos = new ArrayList<>();
+        this.comentarios = new ArrayList<>();
+        this.caracteristicas = new ArrayList<>();
     }
 }

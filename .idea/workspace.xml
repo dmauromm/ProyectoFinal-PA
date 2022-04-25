@@ -4,59 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0f58574-2cc6-4022-9089-760ac3a8a93b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.4/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/PersistenciaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/AdministradorHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Cama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Caracteristica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Ciudad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Comentario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Foto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Habitacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Reserva.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Reserva_Habitacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Reserva_Silla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Silla.java" afterDir="false" />
+    <list default="true" id="83ba8e4e-923e-4924-a95d-7d2459213202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/7.4/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/.jpb/persistence-units.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/PersistenciaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/AdministradorHotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Cama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Caracteristica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Ciudad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Comentario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Foto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Habitacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Reserva.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Reserva_Habitacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Reserva_Silla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Silla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Telefono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Vuelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/persistencia/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniTravel/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/dto/ComentarioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/dto/HotelMayorCalificacionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/dto/ReservaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/dto/ReservasTotalesDTO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Telefono.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/entidades/Vuelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistencia/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistencia/src/main/java/co/edu/uniquindio/unitravel/repositorios/TelefonoRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistencia/src/test/java/co/edu/uniquindio/unitravel/TelefonoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +75,30 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="unitravel" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -97,72 +125,187 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2816EBH8ZDPVlt3evD6IOOG9bvG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="289YITpNAiHFatfu5k8bc41c6vQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-11",
-    "last_opened_file_path": "C:/Users/sebas/OneDrive/Documentos/Avanzada/Proyecto-Final",
+    "last_opened_file_path": "C:/Users/sebas/OneDrive/Escritorio/Avanzada_Mauro/unitravel-Uniquindio-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "5e8da9c2906f5082b8a1dfd2540098cb"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="UniTravel" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="co.edu.uniquindio.unitravel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TelefonoTest.listarTelefonosTest">
+    <configuration name="TelefonoTest.actualizarTelefonoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":persistencia:test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.unitravel.TelefonoTest.actualizarTelefonoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="UniTravel" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="TelefonoTest.eliminarTelefonoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":persistencia:test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.unitravel.TelefonoTest.eliminarTelefonoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="PersistenciaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="untitled.persistencia.main" />
+    <configuration name="TelefonoTest.listarTelefonosTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":persistencia:test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.unitravel.TelefonoTest.listarTelefonosTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TelefonoTest.registrarTelefonoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":persistencia:test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.unitravel.TelefonoTest.registrarTelefonoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UsuarioTest.listarUsuariosPorCiudad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":persistencia:test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.unitravel.UsuarioTest.listarUsuariosPorCiudad&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PersistenciaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="unitravel.persistencia.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uniquindio.unitravel.PersistenciaApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="co.edu.uniquindio.unitravel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PersistenciaApplication" />
+        <item itemvalue="Gradle.TelefonoTest.listarTelefonosTest" />
+        <item itemvalue="Gradle.TelefonoTest.actualizarTelefonoTest" />
+        <item itemvalue="Gradle.TelefonoTest.eliminarTelefonoTest" />
+        <item itemvalue="Gradle.TelefonoTest.registrarTelefonoTest" />
+        <item itemvalue="Gradle.UsuarioTest.listarUsuariosPorCiudad" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0f58574-2cc6-4022-9089-760ac3a8a93b" name="Changes" comment="" />
-      <created>1650371632934</created>
+      <changelist id="83ba8e4e-923e-4924-a95d-7d2459213202" name="Changes" comment="" />
+      <created>1650630190083</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650371632934</updated>
-      <workItem from="1650371635304" duration="48000" />
-      <workItem from="1650371744960" duration="4330000" />
+      <updated>1650630190083</updated>
+      <workItem from="1650630191637" duration="1410000" />
+      <workItem from="1650755469633" duration="6095000" />
+      <workItem from="1650829011995" duration="20036000" />
     </task>
     <servers />
   </component>
@@ -179,8 +322,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,30 +1,39 @@
 package co.edu.uniquindio.unitravel.entidades;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import lombok.*;
+
+import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@NoArgsConstructor
 @Getter
 @Setter
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Caracteristica implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
-    private int codigo;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer codigo;
 
-    private String nombre;
+    @Column(length = 100, nullable = false)
+    private String descripcion;
 
-    public Caracteristica(String nombre) {
-        this.nombre = nombre;
+    @ManyToMany
+    @ToString.Exclude
+    private List<Hotel> hoteles;
+
+    @ManyToMany
+    @ToString.Exclude
+    private List<Habitacion> habitaciones;
+
+    public Caracteristica(String descripcion) {
+        this.descripcion = descripcion;
+        this.hoteles = new ArrayList<>();
+        this.habitaciones = new ArrayList<>();
     }
 }
